@@ -1,0 +1,403 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #F5F5F5;
+}
+/* css navigation start */
+.navigation {
+  display: flex;
+  align-items: center;
+  background-color: #171c26;
+  justify-content: space-between;
+  box-sizing: border-box;
+  max-height: 50px;
+  padding: 50px;
+}
+
+.navigation img {
+  max-width: 200px;
+}
+
+.navButton ul {
+  display: flex;
+  list-style: none;
+}
+.navButton ul a {
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.navButton ul a:hover {
+  background-color: white;
+  color: #171c26;
+  border: 2px solid #171c26;
+  border-radius: 10px;
+}
+/* css navigation end */
+
+/* css tagline start */
+.tagline {/*  */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center ;
+  color: #171c26;
+  margin: 50px;
+}
+
+.tagline h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.tagline h5 {
+  font-size: 20px;
+  color: #777;
+}
+/* css tagline end*/
+
+/* css firstPage start */
+.firstPage {
+  margin-left: 250px;
+  margin-right: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  max-width: 800px;
+  }
+
+.review {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  }
+  
+.slidePicture {
+  display: flex;
+  flex: 1;
+  position: relative;
+  max-width: 700px;
+  overflow: hidden;
+  }
+  
+.slidePicture img {
+  width: 700px;
+  height: auto;
+  border-radius: 20px;
+  transition: transform 1s ease;
+  }
+  
+.slidePicture img.inactive {
+  transform: scale(1);
+  }
+
+.desc {
+  padding: 0 20px;
+  color: #171c26;
+  }
+
+.desc h3 {
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.testi {
+  display: flex;
+  align-items: center;
+}
+
+.testi img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.buktiTesti h4 {
+  font-size: 16px;
+  margin-bottom: -10px;
+}
+
+.buktiTesti p {
+  font-style: italic; 
+  font-size: 14px;
+  color: #777;
+}
+
+.line-contact {
+  border: 2px solid #ccc;
+  margin: 20px auto;
+  width: 100px;
+}
+.infoTambahan {
+  padding: 10px;
+  width: 600px;
+}
+.infoTambahan p {
+  padding-bottom: 10px;
+}
+
+.benefit-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.benefit {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.benefit div {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #777;
+  color: #fff;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.benefit p {
+  margin: 0;
+  color: #777;
+}
+
+/* css firstPage end */
+
+/* css contact form start */
+.contactUs {
+  max-width: 400px;
+  max-height: 650px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background-color:#ebebeb;
+}
+
+.titleForm {
+  margin-bottom: 20px;
+}
+
+.titleForm h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.titleForm p {
+  font-size: 14px;
+  color: #777;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.inputNama,
+.inputEmail,
+.options {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+  width: 350px;
+  height: 15px;
+  padding: 8px;
+  border: 2px solid #ccc;
+  border-radius: 7px;
+}
+select {
+  height: 35px;
+width: 370px;
+}
+
+button {
+  background-color: #171c26;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 370px;
+}
+
+button:hover {
+  background-color: white;
+  color: #171c26;
+  border: 2px solid #171c26;
+}
+
+/* css contact form end */
+
+/* css banner start */
+.banner {
+  margin: 50px 0px;
+  width: 100%;
+  background-color: #171c26;
+  color: #F5F5F5;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner h1 {
+  font-size: 50px;
+  margin: 0;
+}
+
+/* css banner end */
+
+/* css second page start */
+.secondpage {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin: 0 10%;
+} 
+
+.secondpage h1 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.listPack {
+  display: flex;
+  flex-direction: column;
+}
+.firstList {
+  display: flex;
+  text-align: justify;
+
+}
+.secondList {
+  display: flex;
+  text-align: justify;
+}
+
+
+.package {
+  width: 300px;
+  height:150px ;
+  padding: 30px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.packTitle {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.packLogo {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #9BA4B5;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.packLogo  img {
+  width: 20px;
+  height: 20px;
+}
+
+.packTitle h4 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.package p {
+  font-size: 14px;
+  color: #777;
+}
+/* css second page end */
+
+
+/* css footer end */
+footer.callUs {
+  text-align: center;
+}
+
+footer hr {
+  border: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+.closingText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.closingArgu {
+  flex: 1;
+  margin-bottom: 30px;
+}
+
+.closingArgu h1 {
+  font-size: 35px;
+}
+
+.closingArgu p {
+  font-size: 14px;
+  color: #777;
+  max-width: 800px;
+}
+
+.button {
+  background-color: #171c26;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: white;
+  color: #171c26;
+  border: 1px solid #171c26;
+}
+
+.footNote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #171c26;
+  color: #F5F5F5;
+}
+
+.footNote img {
+  width: 150px;
+  margin-right: 10px;
+}
+
+.footNote p {
+  font-size: 14px;
+  color: #F5F5F5;
+  margin: 0;
+}
+/* css footer end */
